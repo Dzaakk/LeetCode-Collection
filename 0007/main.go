@@ -7,5 +7,6 @@ func reverse(x int) int {
 	if res < math.MinInt32 || res > math.MaxInt32 {
 		return 0
 	}
+
 	return int(res)
 }
