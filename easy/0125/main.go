@@ -1,4 +1,7 @@
 package _125
+
+import "unicode"
+
 //08:39
 func isPalindrome(s string) bool {
 	left, right := 0, len(s)-1
