@@ -4,7 +4,7 @@ func removeElement(nums []int, val int) int {
 	for _, num := range nums {
 		if num != val {
 			nums[index] = num
-			index += 1
+			index++
 		}
 	}
 	return index
